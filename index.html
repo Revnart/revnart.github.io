@@ -2,14 +2,307 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Witold Eysymontt - portfolio</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: MyPortfolio - v4.9.0
+  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-    <h1>Portfolio</h1>
+
+    <!-- ======= Navbar ======= -->
+    <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+        <div class="container py-2 py-md-5">
+            <div class="row align-items-start">
+                <div class="col-md-3">
+                    <ul class="custom-menu">
+                        <li class="active"><a href="index.html">Start</a></li>
+                        <li><a href="about.html">O mnie</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-light custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Witold Eysymontt.</a>
+            <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
+                <span></span>
+            </a>
+        </div>
+    </nav>
+
+    <main id="main">
+
+        <!-- ======= Works Section ======= -->
+        <section class="section site-portfolio">
+            <div class="container">
+                <div class="row mb-5 align-items-center">
+                    <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+                        <p class="mb-0">Projekowanie, wizualizacje, programowanie.</p>
+                    </div>
+                    <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
+                        <div id="filters" class="filters">
+                            <a href="#" data-filter="*" class="active">Wszystko</a>
+                            <a href="#" data-filter=".cars">Samochody</a>
+                            <a href="#" data-filter=".logo">Logo</a>
+                            <a href="#" data-filter=".other">Inne</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+                    <!-- Single portfolio item -->
+                    <div class="item cars col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_retronova.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Retronova</h3>
+                                <span>Samochód</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/retronova/retronova_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item logo col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_baba_jaga.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Baba Jaga</h3>
+                                <span>logo</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/baba_jaga/baba_jaga_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item cars col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_p1erze.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>p1erze</h3>
+                                <span>Samochód</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/bmw_p1erze/p1erze_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item other col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_autoodnowa.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Autoodnowa</h3>
+                                <span>Social</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/autoodnowa/autoodnowa_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item other logo col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_murawska.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Murawska Masaże</h3>
+                                <span>Logo, Wizytówki</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/murawska/murawska_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item other col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_moja_kosmetyczka.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Moja Kosmetyczka</h3>
+                                <span>Reklama zewnętrzna</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/moja_kosmetyczka/moja_kosmetyczka_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item other col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_private_walls.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Klient Prywatny</h3>
+                                <span>Fototapeta</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/private_walls/private_walls_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item cars col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_private_petronas.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Klient Prywatny</h3>
+                                <span>Samochód</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/mercedes_petronas/petronas_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item other logo col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_slowianka.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Studio Urody Słowianka</h3>
+                                <span>Logo, Wizytówki</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/slowianka/slowianka_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item other cars col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_czekoladowa_chwila.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Czekoladowa Chwila</h3>
+                                <span>Samochód, menu</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/czekoladowa_chwila/czekoladowa_chwila_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item other logo col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_veghel.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Atelier Veghel</h3>
+                                <span>Logo, Wizytówki</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/alelier_veghel/veghel_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item cars col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_killarney.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Killarney Tiling</h3>
+                                <span>Samochód</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/killarney/killarney_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item cars col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_handicraft.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Handicraft</h3>
+                                <span>Samochód</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/handicraft/handicraft_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item cars col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_czajen.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Czajen</h3>
+                                <span>Samochód</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/czajen/czajen_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item other col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_dietice.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Dietice</h3>
+                                <span>Opakowanie</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/dietice/dietice_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+                    <!-- Single portfolio item -->
+                    <div class="item cars col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="work_expert.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Expert Driving Academy</h3>
+                                <span>Samochód</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/expert_driving_academy/expert_thumb.jpg">
+                        </a>
+                    </div>
+                    <!-- Single portfolio item End -->
+
+
+                </div>
+            </div>
+        </section>
+        <!-- End  Works Section -->
+
+
+
+
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="mb-1">&copy; Copyright Witold Eysymontt. All Rights Reserved</p>
+                    <div class="credits">
+                        <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
+          -->
+                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
