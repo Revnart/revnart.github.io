@@ -390,6 +390,8 @@ h6,
     padding: 0;
     margin: 0;
     list-style: none;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
 }
 
 .custom-navmenu .custom-menu li {
